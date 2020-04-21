@@ -1,5 +1,9 @@
 # Aditional ignores
 .vscode
+temp/
+
+tmp/*
+!tmp/.gitkeep
 
 # Logs
 logs
