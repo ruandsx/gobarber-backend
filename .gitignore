@@ -4,6 +4,10 @@ temp/
 
 tmp/*
 !tmp/.gitkeep
+!tmp/uploads
+tmp/uploads/*
+!tmp/uploads/.gitkeep
+
 
 # Logs
 logs
