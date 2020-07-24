@@ -21,13 +21,13 @@ describe('AuthenticateeUser', () => {
     );
 
     const user = await createUser.execute({
-      name: 'Teste',
-      email: 'teste@mail.com',
+      name: 'Test',
+      email: 'test@mail.com',
       password: '123456',
     });
 
     const response = await authenticateUser.execute({
-      email: 'teste@mail.com',
+      email: 'test@mail.com',
       password: '123456',
     });
 
@@ -46,7 +46,7 @@ describe('AuthenticateeUser', () => {
 
     await expect(
       authenticateUser.execute({
-        email: 'teste@mail.com',
+        email: 'test@mail.com',
         password: '123456',
       })
     ).rejects.toBeInstanceOf(AppError);
@@ -66,14 +66,14 @@ describe('AuthenticateeUser', () => {
     );
 
     await createUser.execute({
-      name: 'Teste',
-      email: 'teste@mail.com',
+      name: 'Test',
+      email: 'test@mail.com',
       password: '123456',
     });
 
     await expect(
       authenticateUser.execute({
-        email: 'teste@mail.com',
+        email: 'test@mail.com',
         password: 'wrong-password',
       })
     ).rejects.toBeInstanceOf(AppError);
