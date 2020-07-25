@@ -36,3 +36,7 @@ describe('ResetPassword', () => {
     expect(updatedUser?.password).toBe('654321');
   });
 });
+
+// hash test
+// 2h expires
+// if tests
