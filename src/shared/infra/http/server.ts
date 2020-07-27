@@ -28,7 +28,7 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
 
   console.error(err);
 
-  return response.status(400).json({
+  return response.status(500).json({
     status: 'error',
     message: 'Internal Server Error',
   });
