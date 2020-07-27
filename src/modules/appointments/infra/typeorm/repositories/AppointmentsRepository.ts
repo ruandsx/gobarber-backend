@@ -1,5 +1,4 @@
 import { getRepository, Repository, Raw } from 'typeorm';
-import {} from 'date-fns';
 
 import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 import ICreateAppointmentDTO from '@modules/appointments/dtos/ICreateAppointmentDTO';
