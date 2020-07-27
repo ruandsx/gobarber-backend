@@ -60,7 +60,7 @@
 - O usuário deve poder listar todos prestadores de serviço cadastrados;
 - O usuário deve poder visualizar os dias disponíveis do prestador selecionado;
 - O usuário deve poder visualizar os horários disponíveis de um dia específico do prestador selecionado;
-- O usuário deve poder reaçizar um novo agendamento com o prestador;
+- O usuário deve poder realizar um novo agendamento com o prestador;
 
 **RNF**
 
@@ -68,9 +68,10 @@
 
 **RN**
 
-- Cada agendamento tema  duração de 1h
-- Os agendamentos devem estar disponíveis de 8h às 18h (Último às 17h)
 - O usuário não pode agendar em um horário já ocupado;
 - O usuário não pode agendar em um horário que já passou;
 - O usuário não pode agendar serviços consigo mesmo;
+- Cada agendamento tem a duração de 1h
+
+- Os agendamentos devem estar disponíveis de 8h às 18h (Último às 17h)
 
