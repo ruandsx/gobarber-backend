@@ -10,7 +10,6 @@ const providers = {
   ethereal: container.resolve(EtherealMailProvider),
   ses: container.resolve(SESMailProvider),
 };
-
 container.registerInstance<IMailProvider>(
   'MailProvider',
   providers[mailConfig.driver]
