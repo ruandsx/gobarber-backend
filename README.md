@@ -38,7 +38,7 @@ This api provides everything needed to organize appointments between the barbers
 
 Customers can choose the best time available to them.
 
-Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
+Providers can see all their appointments and manage the times.
 
 To see the **web client**, click here: [GoBarber Web](https://github.com/ruandsx/gobarber-web)<br />
 To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/ruandsx/gobarber-app)
